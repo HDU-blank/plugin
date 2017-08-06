@@ -8,13 +8,6 @@
             return this.css("color",value);
         }
     }
-    "background":function(value){
-        if (value == undefined){
-            return this.css("background");
-        }else{
-            return this.css("background",value);
-        }
-    }
   });
 })(jQuery);
 
